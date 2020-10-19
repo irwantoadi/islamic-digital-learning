@@ -34,6 +34,7 @@
                 android:src="@drawable/header_mini"
                 android:adjustViewBounds="true"/>
             <ImageButton
+                android:id="@+id/btn_back"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/btn_back"
@@ -54,6 +55,15 @@
             android:background="#0fff"
             android:layout_marginBottom="20dp"
             android:layout_marginTop="30dp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/juz"
+                android:adjustViewBounds="true"/>
+        </ScrollView>
     </LinearLayout>
 
 </RelativeLayout>
